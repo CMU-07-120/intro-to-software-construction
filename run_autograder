@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+files_submitted=$(ls /autograder/submission)
+num_files_submitted=$(ls /autograder/submission/ | wc -l)
+
+cat > /autograder/results/results.json <<EOF
+EOF
