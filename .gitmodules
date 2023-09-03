@@ -1,0 +1,4 @@
+[submodule "c0"]
+	path = c0
+	url = https://bitbucket.org/c0-lang/c0.git
+    ignore = untracked

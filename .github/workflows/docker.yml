@@ -15,6 +15,7 @@ env:
   DOCKER_BUILDKIT: '1'
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+  GRADESCOPE_IMAGE_NAME: ${{ github.repository }}-gradescope
 
 jobs:
   build-docker:
@@ -47,19 +48,38 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Metadata Gradescaope | Autograder
+        id: meta-gradescope
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.GRADESCOPE_IMAGE_NAME }}
+
       - name: Metadata
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Docker Build
+      - name: Docker Build Gradescaope | Autograder
         uses: docker/build-push-action@v4
         with:
           context: .
-          cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ github.repository_owner}}/07120:latest
+          file: Dockerfile.gradescope
+          cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ github.repository_owner}}/${{ env.GRADESCOPE_IMAGE_NAME }}:latest
           cache-to: type=inline
           platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
+          labels: ${{ steps.meta-gradescope.outputs.labels }}
+
+      - name: Docker Build
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: Dockerfile
+          cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ github.repository_owner}}/${{ env.IMAGE_NAME }}:latest
+          cache-to: type=inline
+          platforms: linux/amd64, linux/arm64
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
