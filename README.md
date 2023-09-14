@@ -47,7 +47,8 @@ Follow these steps:
     * [Darwin amd64 with statically-linked gmp][mlton-dawrin-gmp-static]
     * [Source code][mlton-src]
 
-    You can find more release packages [here][mlton-releases].
+    You can find more release packages [here][mlton-releases]. For downloads on
+    MacOS, [you may need to override security setings][mac-app-security].
 
   * Compile the MLTon source code you downloaded, using the amd64
     statically-linked version of mlton from mlton.org in your `$PATH`:
@@ -141,13 +142,13 @@ $ docker pull ghcr.io/zeeshanlakhani/07120:latest
 Then you can run it with a mounted volume of your `.c0` files for example:
 
 ```sh
-$ docker run -it --rm -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
+$ docker run --platform linux/amd64 -it --rm -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
 ```
 
 Another option is first invoke the container like so:
 
 ```sh
-$ docker run --name=c0-docker -it -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
+$ docker run --platform linux/amd64 --name=c0-docker -it -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
 ```
 
 and then just start it on subsequent invocations:
@@ -163,7 +164,7 @@ $ docker container ls -a | grep c0-docker
 $ docker container rm [container_id]
 ```
 
-where `[container_id]` is the output of the first command.
+where `[container_id]` is the first output of the first command.
 
 You can also run the [container in the background][docker-bg] (in detached mode)
 and `docker attach` or `docker exec` into it.
@@ -201,6 +202,7 @@ We highly recommend these reads from the [15-122][15-122] class to start out:
 [how-to-debug-print]: https://www.cs.cmu.edu/~15122/handouts/gts/print.pdf
 [how-to-write-tests]: https://www.cs.cmu.edu/~15122/handouts/gts/testing.pdf
 [macports]: https://www.macports.org/install.php
+[mac-app-security]: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
 [mlton-dawrin-gmp-static]: https://github.com/MLton/mlton/releases/download/on-20210117-release/mlton-20210117-1.amd64-darwin-19.6.gmp-static.tgz
 [mlton-releases]: https://github.com/MLton/mlton/releases
 [mlton-src]: https://github.com/MLton/mlton/archive/refs/tags/on-20210117-release.zip
