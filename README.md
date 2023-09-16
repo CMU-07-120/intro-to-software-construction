@@ -20,14 +20,14 @@ this doc and will provide feedback on any issues.
 Download the package and install it:
 
 ```sh
-$ wget https://c0.cs.cmu.edu/downloads/cc0-debian.deb
-$ sudo apt install ./cc0-debian.deb
+wget https://c0.cs.cmu.edu/downloads/cc0-debian.deb
+sudo apt install ./cc0-debian.deb
 ```
 
 To uninstall, run:
 
 ```sh
-$ sudo apt remove cc0
+sudo apt remove cc0
 ```
 
 ### MacOS
@@ -40,7 +40,7 @@ Follow these steps:
     this may work with [Homebrew][homebrew-gmp] now as well.
 
     ```sh
-    $ sudo port install gmp +universal
+    sudo port install gmp +universal
     ```
 
   * Download two versions ofthe latest MLTon:
@@ -54,23 +54,25 @@ Follow these steps:
     statically-linked version of mlton from mlton.org in your `$PATH`:
 
     ```sh
-    $ cd <where-you-placed-mlton-source-code>
-    $ env PATH=<where-you-placed-mlton-amd64-static>/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/ make WITH_GMP_DIR=/opt/local
+    cd <where-you-placed-mlton-source-code>
+    env PATH=<where-you-placed-mlton-amd64-static>/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/ make WITH_GMP_DIR=/opt/local
     ```
+Note: you might need to disable gatekeeper as described here: https://osxdaily.com/2015/05/04/disable-gatekeeper-command-line-mac-osx/
+
 
   * Install the CC0 dependencies using [Homebrew][homebrew] or [MacPorts][macports] (brew example shown here):
 
     ```sh
-    $ brew install autoconf automake libpng pkg-config gnu-getopt
+    brew install autoconf automake libpng pkg-config gnu-getopt
     ```
 
   * Finally, download and compile the C0/CC0 source:
 
     ```sh
-    $ git clone https://github.com/zeeshanlakhani/07120
-    $ cd c0/cc0
-    $ ./configure
-    $ env PATH=<where-you-built-mlton-in-the-previous-step/mlton/build/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/  make -j
+    git clone https://github.com/zeeshanlakhani/07120
+    cd c0/cc0
+    ./configure
+    env PATH=<where-you-built-mlton-in-the-previous-step/mlton>/build/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/  make -j
     ```
 
   * Then `bin/cc0` and `bin/coin` (`coin` is the C0 interpreter, `cc0` is the compiler)
@@ -82,10 +84,10 @@ personally able to compile everything with just the statically-linked MLTon in
 my path, the required installs (GMP, Automake, etc) and running just:
 
 ``` sh
-$ git clone https://github.com/zeeshanlakhani/07120
-$ cd c0/cc0
-$ ./configure
-$ make -j
+git clone https://github.com/zeeshanlakhani/07120
+cd c0/cc0
+./configure
+make -j
 ```
 
 Nonetheless, I've kept everything here from what the C0 team recommends.
@@ -95,19 +97,19 @@ Nonetheless, I've kept everything here from what the C0 team recommends.
 * The first and easiest step is use to [Homebrew][homebrew], and run
 
   ```sh
-  $ brew tap cmu/cc0 https://bitbucket.org/c0-lang/downloads.git
-  $ brew install cc0
+  brew tap cmu/cc0 https://bitbucket.org/c0-lang/downloads.git
+  brew install cc0
   ```
 * To test the installation, run:
 
   ```sh
-  $ brew test cc0
+  brew test cc0
   ```
 
 * To uninstall, run:
 
   ```sh
-  $ brew uninstall cc0
+  brew uninstall cc0
   ```
 
 ### Windows
@@ -121,11 +123,11 @@ C0 depends on `libpng` and `libncurses`. If you have those installed
 (e.g. via a package manager), you should be able to compile from scratch:
 
 ```sh
-$ git clone https://github.com/zeeshanlakhani/07120
-$ cd c0/cc0
-$ ./configure
-$ make -j
-$ make install PREFIX=<your-prefix>
+git clone https://github.com/zeeshanlakhani/07120
+cd c0/cc0
+./configure
+make -j
+make install PREFIX=<your-prefix>
 ```
 
 ## Using Docker
@@ -136,7 +138,7 @@ and run `coin` and `cc0` binaries directly.
 First, install our container:
 
 ```sh
-$ docker pull ghcr.io/zeeshanlakhani/07120:latest
+docker pull ghcr.io/zeeshanlakhani/07120:latest
 ```
 
 Then you can run it with a mounted volume of your `.c0` files for example:
@@ -154,14 +156,14 @@ $ docker run --platform linux/amd64 --name=c0-docker -it -v <path-to-my-c0-files
 and then just start it on subsequent invocations:
 
 ``` sh
-$ docker start -i c0-docker
+docker start -i c0-docker
 ```
 
 You can remove the `c0-docker` container by running:
 
 ``` sh
-$ docker container ls -a | grep c0-docker
-$ docker container rm [container_id]
+docker container ls -a | grep c0-docker
+docker container rm [container_id]
 ```
 
 where `[container_id]` is the first output of the first command.
