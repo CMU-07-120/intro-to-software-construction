@@ -1,0 +1,7 @@
+.vscode
+*.gcov
+*.gcda
+*.gcno
+*a.out*
+gcovr-report
+*.gch
