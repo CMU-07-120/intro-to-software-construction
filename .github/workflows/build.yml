@@ -102,16 +102,20 @@ jobs:
           sudo apt install -y python3-pip || apt install -y python3-pip
           pip3 install gcovr
 
-      - run: ls
+      - name: Compile (test)simple.c
+        working-directory: ./examples/code-coverage
+        run: |
+          make simple
+          make run-simple
 
       - name: Run gcovr
-        run: gcovr --root examples/code-coverage -s -v --xml-pretty -o coverage.xml
+        run: gcovr --root ./examples/code-coverage -s -v --xml-pretty -o coverage.xml
 
       - name: Upload to codecov.io
         uses: codecov/codecov-action@v3
         continue-on-error: true
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: coverage.xml
+          files: ./coverage.xml
           fail_ci_if_error: false
           verbose: true
