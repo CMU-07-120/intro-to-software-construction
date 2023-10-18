@@ -1,4 +1,4 @@
-name: 🐳 Docker
+name: 🐳☂ Build
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -14,7 +14,7 @@ on:
 env:
   DOCKER_BUILDKIT: '1'
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: cmu-07120
 
 jobs:
   changes:
@@ -22,7 +22,8 @@ jobs:
     permissions:
       pull-requests: read
     outputs:
-      rust: ${{ steps.filter.outputs.rust }}
+      docker: ${{ steps.filter.outputs.docker}}
+      coverage: ${{ steps.filter.outputs.coverage}}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -33,6 +34,8 @@ jobs:
             docker:
               - 'Dockerfile'
               - 'c0/**'
+            coverage:
+              - 'examples/code-coverage/**'
 
   build-docker:
     needs: changes
@@ -46,7 +49,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # https://github.com/docker/setup-qemu-action
       - name: Setup QEMU
@@ -84,3 +87,37 @@ jobs:
           provenance: false
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
+
+  coverage-ex:
+    needs: changes
+    if: ${{ needs.changes.outputs.coverage == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install gcovr
+        run: |
+          sudo apt install -y python3-pip || apt install -y python3-pip
+          pip3 install gcovr
+
+      - name: Compile (test)simple.c
+        working-directory: ./examples/code-coverage
+        run: |
+          make simple
+          make run-simple
+
+      - run: ls examples/code-coverage
+
+      - name: Run gcovr
+        run: gcovr --root examples/code-coverage --filter examples/code-coverage/simple.c -s -v --xml-pretty -o coverage.xml
+
+      - name: Upload to codecov.io
+        uses: codecov/codecov-action@v3
+        continue-on-error: true
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage.xml
+          fail_ci_if_error: false
+          verbose: true
