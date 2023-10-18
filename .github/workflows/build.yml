@@ -108,7 +108,7 @@ jobs:
           make simple
           make run-simple
 
-      - name: ls examples/code-coverage
+      - run: ls examples/code-coverage
 
       - name: Run gcovr
         run: gcovr --root examples/code-coverage -s -v --xml-pretty -o coverage.xml
