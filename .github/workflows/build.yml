@@ -102,6 +102,8 @@ jobs:
           sudo apt install -y python3-pip || apt install -y python3-pip
           pip3 install gcovr
 
+      - run: ls
+
       - name: Run gcovr
         run: gcovr --root examples/code-coverage -s -v --xml-pretty -o coverage.xml
 
