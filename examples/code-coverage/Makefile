@@ -10,8 +10,8 @@ run-simple: simple
 clean:
 	rm -rf a.out a.out.dSYM
 
-coverage: 
-	gcov simple.c test_simple.c	
+coverage:
+	gcov simple.c test_simple.c
 
 coverage-report: coverage ## Generate gcovr report
 	mkdir gcovr-report
@@ -21,4 +21,4 @@ deps: ## Install dependencies
 	pip install gcovr
 
 clean: ## Clean all generate files
-	$(RM) main *.out *.o *.so *.gcno *.gcda *.gcov lcov-report gcovr-report	
+	$(RM) main *.out *.o *.so *.gcno *.gcda *.gcov lcov-report gcovr-report

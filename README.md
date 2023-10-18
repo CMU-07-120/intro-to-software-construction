@@ -171,10 +171,6 @@ where `[container_id]` is the first output of the first command.
 You can also run the [container in the background][docker-bg] (in detached mode)
 and `docker attach` or `docker exec` into it.
 
-### Running Stepwise Debugging for containers in Visual Studio Code
-
-TBD
-
 ## Visual Studio Code extension
 
 We highly recommend using [Visual Studio Code][vscode] with the [C0 plugin][vscode-c0]
