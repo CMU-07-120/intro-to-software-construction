@@ -111,7 +111,7 @@ jobs:
       - run: ls examples/code-coverage
 
       - name: Run gcovr
-        run: gcovr --root examples/code-coverage -s -v --xml-pretty -o coverage.xml
+        run: gcovr --root examples/code-coverage --filter examples/code-coverage/simple.c -s -v --xml-pretty -o coverage.xml
 
       - name: Upload to codecov.io
         uses: codecov/codecov-action@v3
