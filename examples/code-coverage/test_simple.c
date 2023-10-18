@@ -16,7 +16,7 @@ int main(void) {
   P->x = -15;
   P->y = 0; // uninitialized without: P->y could contain an arbitrary value
   P->y = P->y + absval(P->x * 2);
-  assert(P->x > P->y && true); // if P->y uninitialized, may succeeed or fail
+  assert(P->y > P->x && true); // if P->y uninitialized, may succeeed or fail
 
   // free(P);  // wrong!
   printf("x coord: %d\n", P->x);
