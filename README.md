@@ -119,7 +119,7 @@ then following the directions for Ubuntu/Debian above.
 
 ### Installing from source
 
-C0 depends on `libpng` and `libncurses`. If you have those installed
+C0 depends on `mlton`, `libpng` and `libncurses`. If you have those installed
 (e.g. via a package manager), you should be able to compile from scratch:
 
 ```sh

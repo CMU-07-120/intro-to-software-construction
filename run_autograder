@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-cat > /autograder/results/results.json <<EOF
-EOF

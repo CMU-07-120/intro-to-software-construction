@@ -15,10 +15,28 @@ env:
   DOCKER_BUILDKIT: '1'
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  GRADESCOPE_IMAGE_NAME: ${{ github.repository }}-gradescope
 
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    outputs:
+      rust: ${{ steps.filter.outputs.rust }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            docker:
+              - 'Dockerfile'
+              - 'c0/**'
+
   build-docker:
+    needs: changes
+    if: ${{ needs.changes.outputs.docker == 'true' }}
     runs-on: ubuntu-latest
 
     permissions:
@@ -48,30 +66,11 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Metadata Gradescaope | Autograder
-        id: meta-gradescope
-        uses: docker/metadata-action@v4
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.GRADESCOPE_IMAGE_NAME }}
-
       - name: Metadata
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-
-      - name: Docker Build Gradescaope | Autograder
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          file: Dockerfile.gradescope
-          cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ env.GRADESCOPE_IMAGE_NAME }}:latest
-          cache-to: type=inline
-          platforms: linux/amd64
-          push: ${{ github.event_name != 'pull_request' }}
-          provenance: false
-          tags: ${{ env.REGISTRY }}/${{ env.GRADESCOPE_IMAGE_NAME }}:latest
-          labels: ${{ steps.meta-gradescope.outputs.labels }}
 
       - name: Docker Build
         uses: docker/build-push-action@v4

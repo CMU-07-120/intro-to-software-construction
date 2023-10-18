@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 ARG c0_binaries=https://c0.cs.cmu.edu/downloads/aux/cc0-latest.tgz
 ARG c0_version=v20210822
