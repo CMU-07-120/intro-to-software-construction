@@ -103,13 +103,13 @@ jobs:
           pip3 install gcovr
 
       - name: Run gcovr
-        run: gcovr --root ./examples/code-coverage -s -v --xml-pretty -o coverage.xml
+        run: gcovr --root examples/code-coverage -s -v --xml-pretty -o coverage.xml
 
       - name: Upload to codecov.io
         uses: codecov/codecov-action@v3
         continue-on-error: true
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage.xml
+          files: coverage.xml
           fail_ci_if_error: false
           verbose: true
