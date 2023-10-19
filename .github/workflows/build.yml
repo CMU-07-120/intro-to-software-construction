@@ -74,7 +74,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${REPO}
+          images: ${{ env.REGISTRY }}/${{ env.REPO }}
 
       - name: Docker Build
         uses: docker/build-push-action@v4
