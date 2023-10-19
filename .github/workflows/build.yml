@@ -37,8 +37,6 @@ jobs:
               - 'examples/code-coverage/**'
 
   build-docker:
-    needs: changes
-    if: ${{ needs.changes.outputs.docker == 'true' }}
     runs-on: ubuntu-latest
 
     permissions:
