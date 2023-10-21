@@ -1,4 +1,4 @@
-CC	= gcc
+CC = gcc
 CFLAG = -fPIC -fprofile-arcs -ftest-coverage
 
 simple: simple.h simple.c
