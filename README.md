@@ -63,7 +63,7 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
   * Install the CC0 dependencies using [Homebrew][homebrew] or [MacPorts][macports] (brew example shown here):
 
     ```sh
-    brew install autoconf automake libpng pkg-config gnu-getopt
+    brew install autoconf automake libpng pkg-config gnu-getopt libtool
     ```
 
   * Finally, download and compile the C0/CC0 source:
