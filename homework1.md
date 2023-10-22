@@ -1,6 +1,7 @@
 # HW01 - Version Control with Git
 
-In this homework, you will be practicing using version control (git and GitHub). We will be using this throughout the course extensively.
+In this homework, you will be practicing using version control (git and GitHub).
+We will be using this throughout the course extensively.
 
 ## Learning goals
 
@@ -19,7 +20,8 @@ You will be asked to perform the following series of tasks:
   and clone that repository locally
 - *Create* a branch locally
 - *Make changes* to the student.txt and favorites.txt files
-- *Write* a C0 program that prints the contents of `favorites.txt`
+- *Update* the `print_favs.c0` C0 program to print the index of each favorite
+  in `favorites.txt` next to the item
 - *Push* that branch to GitHub
 - *Open* a Pull Request to the main branch and merge it
 - **Challenge**: *Manage* a file conflict
@@ -52,7 +54,7 @@ to a local directory on your machine.
 You should create a new branch of the repository, and you should name the branch
 with your andrewID as the name.
 
-### Make changes to the student.txt and favorites.txt files and commit them locally
+### Make changes to the `student.txt` and `favorites.txt` files and commit them locally
 
 In the branch that you’ve created, you should make changes to the `student.txt`
 file, adding your name and andrewID (replacing the one there). You should also
@@ -61,15 +63,42 @@ or related cultural items that you enjoy (it’s a list of your favorites after 
 
 You should then commit these changes to your local branch.
 
-### Write a C0 program that prints the contents of favorites.txt
+### Update the `print_favs.c0` C0 program
 
-Write a C0 (`.c0`) program in a file named `print_favs.c0` where the
-**main function** loops through and prints each favorite in your `favorites.txt`
-file. It should compile and print accordingly. Printing functions can be found
-in the [conio library][c0-libs]. [README.txt][hw1-txt] has helpful info on
-how to compile and run the program.
+Inside the repository is a file named `print_favs.c0`, which reads your
+`favorites.txt` file into an array and then loops through and prints each
+item. The repository has instructions for how to run this program in
+[README.txt][readme.txt].
 
-You should then commit this change to the same local branch as another commit.
+For this assignment, we would like you to update the code to print a number
+next to each favorite item that is printed. For example, given the example file
+in the repo, running the program should give us this:
+
+``` sh
+wings
+the ascent
+farewell
+you and me
+heat
+--------------------
+...
+```
+
+Your updated output should display the index of the item next to the name of
+item, like so:
+
+``` sh
+(0) wings
+(1) the ascent
+(2) farewell
+(3) you and me
+(4) heat
+--------------------
+...
+```
+
+That's it! You should then commit this change to the same local branch as
+another commit.
 
 ### Push the branch to GitHub
 
@@ -173,6 +202,7 @@ by doing the **Challenge** question.
 [hw1-invite]: https://classroom.github.com/a/Qal8n-kz
 [hw1-txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [invite]: https://classroom.github.com/a/Qal8n-kz
+[readme.txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
 [survey]: https://forms.gle/fuVse4LrpHKQYNcW8
 [vscode-git]: https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio
