@@ -170,8 +170,8 @@ day.
 **Deliverable**: For this assignment, you have one deliverable:
 
 1. You will either upload your GitHub repository URL to [Canvas][canvas]
-as a PDF (with just your andrewID and link in it) or DM
-staff over [Slack][slack].
+under [assignment 1][canvas-1] (embedded via [GradeScope][gradescope]) as a PDF
+(with just your andrewID and link in it) or DM staff over [Slack][slack].
 
 ## Assignment Review
 Because this is a new class, we are asking you to fill out a short survey to
@@ -194,6 +194,7 @@ by doing the **Challenge** question.
 
 
 [canvas]: https://canvas.cmu.edu/courses/36702
+[canvas-1]: https://canvas.cmu.edu/courses/36702/assignments/648197
 [c0-libs]: https://c0.cs.cmu.edu/docs/c0-libraries.pdf
 [c0-vscode]: https://marketplace.visualstudio.com/items?itemName=15122staff.c0-lsp
 [gh-clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
@@ -202,6 +203,7 @@ by doing the **Challenge** question.
 [gh-join]: https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
 [gist]: https://gist.github.com/davfre/8313299
 [git-install]: https://github.com/git-guides/install-git
+[gradescope]: https://www.gradescope.com/courses/576470
 [hw01]: https://github.com/CMU-07-120/hw01
 [hw1-invite]: https://classroom.github.com/a/Qal8n-kz
 [hw1-txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
