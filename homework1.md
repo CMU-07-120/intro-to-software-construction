@@ -166,9 +166,9 @@ day.
 
 **Deliverable**: For this assignment, you have one deliverable:
 
-1. You will upload your GitHub repository URL to [Canvas][canvas].
-If you have any issues, you can also share the link with the TA on
-[Slack](https://cmu-07-120.slack.com/archives/C0629E4EBJ5).
+1. You will either upload your GitHub repository URL to [Canvas][canvas]
+as a PDF (with just your andrewID and link in it) or DM
+Zeeshan Lakhani (me!) over [Slack][slack].
 
 ## Assignment Review
 Because this is a new class, we are asking you to fill out a short survey to
