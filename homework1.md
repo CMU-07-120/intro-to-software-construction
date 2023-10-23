@@ -183,11 +183,11 @@ by doing the **Challenge** question.
 
 | Item        | Points    |
 | ----------- | ----------- |
-| Create a GitHub account | 20       |
-| Make and commit changes  | 40    |
+| Create a GitHub account | 20 |
+| Make/update and commit changes (2 commits, 3 files) | 40 |
 | Correctly open Pull Request | 40 |
 | Challenge: Manage a Merge Conflict | 10 |
-| **Total**       | **110**        |
+| **Total**       | **110** |
 
 
 [canvas]: https://canvas.cmu.edu/courses/36702
