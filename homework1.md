@@ -32,6 +32,8 @@ whichever you’re more comfortable with.
 To install `git`, please [follow this lovely guide][git-install]! We highly
 recommend that you do not use *Github Desktop*!
 
+To install [C0][c0], please follow along with our [README and associated links][readme].
+
 We expect that you’ll be using the [C0 VSCode Extension][c0-vscode] to help
 to write your C0 programs.
 
@@ -195,6 +197,7 @@ by doing the **Challenge** question.
 
 [canvas]: https://canvas.cmu.edu/courses/36702
 [canvas-1]: https://canvas.cmu.edu/courses/36702/assignments/648197
+[c0]: https://bitbucket.org/c0-lang/docs/wiki/Home
 [c0-libs]: https://c0.cs.cmu.edu/docs/c0-libraries.pdf
 [c0-vscode]: https://marketplace.visualstudio.com/items?itemName=15122staff.c0-lsp
 [gh-clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
@@ -208,6 +211,7 @@ by doing the **Challenge** question.
 [hw1-invite]: https://classroom.github.com/a/Qal8n-kz
 [hw1-txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [invite]: https://classroom.github.com/a/Qal8n-kz
+[readme]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/README.md#installation-of-the-c0-language
 [readme.txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
 [survey]: https://forms.gle/fuVse4LrpHKQYNcW8
