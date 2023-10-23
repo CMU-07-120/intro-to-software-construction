@@ -6,3 +6,4 @@
 gcovr-report
 *.gch
 *.xml
+.DS_Store
