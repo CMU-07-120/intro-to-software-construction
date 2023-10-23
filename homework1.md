@@ -29,6 +29,9 @@ You will be asked to perform the following series of tasks:
 All of these tasks can be done via the command line or through [VSCode][vscode-intro-git],
 whichever you’re more comfortable with.
 
+To install `git`, please [follow this lovely guide][git-install]! We highly
+recommend that you do not use *Github Desktop*!
+
 We expect that you’ll be using the [C0 VSCode Extension][c0-vscode] to help
 to write your C0 programs.
 
@@ -168,7 +171,7 @@ day.
 
 1. You will either upload your GitHub repository URL to [Canvas][canvas]
 as a PDF (with just your andrewID and link in it) or DM
-Zeeshan Lakhani (me!) over [Slack][slack].
+staff over [Slack][slack].
 
 ## Assignment Review
 Because this is a new class, we are asking you to fill out a short survey to
@@ -198,6 +201,7 @@ by doing the **Challenge** question.
 [gh-guides-hello]: https://guides.github.com/activities/hello-world/
 [gh-join]: https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
 [gist]: https://gist.github.com/davfre/8313299
+[git-install]: https://github.com/git-guides/install-git
 [hw01]: https://github.com/CMU-07-120/hw01
 [hw1-invite]: https://classroom.github.com/a/Qal8n-kz
 [hw1-txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
