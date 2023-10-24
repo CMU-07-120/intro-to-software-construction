@@ -46,6 +46,26 @@ name you want (within reason, ask the instructors if you have questions).
 
 If you have an existing GitHub account, you may use that.
 
+For those creating a new account, GitHub no longer allows access to private
+repositories with a username and password. Instead, you need to create a
+Personal Access Token (PAT). There are directions [here][pat-blog] and
+[on GitHub][pat] to follow along with. Please use the classic token for
+the most ease. This will work for cloning `https` URLs, so please be aware of
+that. Zeeshan has also provided a quick screencast as well:
+
+https://www.loom.com/share/d3a6e4ec449347dbaa8b2f8cf86fdd23?sid=2a098095-af86-48b3-a5f9-e40cf256a8f1
+
+If you're interested in going further and using [SSH keys][gh-ssh], we can
+take that on Slack or during office hours.
+
+Additionally, for commits, you should set git configurations for your
+[email][config-email] and [name][config-name]:
+
+``` sh
+git config --global user.email "zlakhani2@andrew.cmu.edu"
+git config --global user.name "Zeeshan Lakhani"
+```
+
 ### Generate your own repository and clone it
 
 There is a [repository that has already been set up for HW1][hw01]. First,
@@ -198,12 +218,15 @@ by doing the **Challenge** question.
 [canvas]: https://canvas.cmu.edu/courses/36702
 [canvas-1]: https://canvas.cmu.edu/courses/36702/assignments/648197
 [c0]: https://bitbucket.org/c0-lang/docs/wiki/Home
+[config-email]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
+[config-name]: https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
 [c0-libs]: https://c0.cs.cmu.edu/docs/c0-libraries.pdf
 [c0-vscode]: https://marketplace.visualstudio.com/items?itemName=15122staff.c0-lsp
 [gh-clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [gh-guides]: https://guides.github.com/
 [gh-guides-hello]: https://guides.github.com/activities/hello-world/
 [gh-join]: https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
+[gh-ssh]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 [gist]: https://gist.github.com/davfre/8313299
 [git-install]: https://github.com/git-guides/install-git
 [gradescope]: https://www.gradescope.com/courses/576470
@@ -211,6 +234,8 @@ by doing the **Challenge** question.
 [hw1-invite]: https://classroom.github.com/a/Qal8n-kz
 [hw1-txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [invite]: https://classroom.github.com/a/Qal8n-kz
+[pat-blog]: https://kettan007.medium.com/how-to-clone-a-git-repository-using-personal-access-token-a-step-by-step-guide-ab7b54d4ef83
+[pat]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line
 [readme]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/README.md#installation-of-the-c0-language
 [readme.txt]: https://github.com/CMU-07-120/hw01/blob/main/README.txt
 [slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
