@@ -69,7 +69,7 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
   * Finally, download and compile the C0/CC0 source:
 
     ```sh
-    git clone https://github.com/zeeshanlakhani/07120
+    git clone https://github.com/CMU-07-120/intro-to-software-construction
     cd c0/cc0
     ./configure
     env PATH=<where-you-built-mlton-in-the-previous-step/mlton>/build/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/  make -j
@@ -84,7 +84,7 @@ personally able to compile everything with just the statically-linked MLTon in
 my path, the required installs (GMP, Automake, etc) and running just:
 
 ``` sh
-git clone https://github.com/zeeshanlakhani/07120
+git clone https://github.com/CMU-07-120/intro-to-software-construction
 cd c0/cc0
 ./configure
 make -j
