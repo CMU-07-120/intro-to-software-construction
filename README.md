@@ -81,7 +81,7 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
   * Finally, download and compile the C0/CC0 source:
 
     ```sh
-    git clone https://github.com/CMU-07-120/intro-to-software-construction
+    git clone --recurse-submodules https://github.com/CMU-07-120/intro-to-software-construction
     cd intro-to-software-construction
     cd c0/cc0
     ./configure
@@ -97,7 +97,7 @@ personally able to compile everything with just the statically-linked MLTon in
 my path, the required installs (GMP, Automake, etc) and running just:
 
 ``` sh
-git clone https://github.com/CMU-07-120/intro-to-software-construction
+git clone --recurse-submodules https://github.com/CMU-07-120/intro-to-software-construction
 cd intro-to-software-construction
 cd c0/cc0
 ./configure
@@ -137,7 +137,7 @@ C0 depends on `mlton`, `libpng` and `libncurses`. If you have those installed
 (e.g. via a package manager), you should be able to compile from scratch:
 
 ```sh
-git clone https://github.com/CMU-07-120/intro-to-software-construction
+git clone --recurse-submodules https://github.com/CMU-07-120/intro-to-software-construction
 cd c0/cc0
 ./configure
 make -j
