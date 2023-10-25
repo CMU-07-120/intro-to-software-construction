@@ -140,7 +140,7 @@ The bonus question for each program is always the same:
 
 ## Deadlines and Deliverables
 
-**Due Date**: Wednesday, November 1, 2023 at 11:59 pm.
+**Due Date**: Wednesday, November 2, 2023 at 11:59 pm.
 
 **Note**: You can get an **extra 5 points** by committing the write-up/bug
 report for one of these programs by **Monday, October 30, 2023** at 11:59pm to
