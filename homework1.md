@@ -183,7 +183,7 @@ messed up. Feel free to delete your local directly and start over. This is a
 common technique when working with git.
 
 ## Deadlines and Deliverables
-**Due Date**: October 25, 2023 at 11:59 pm.
+**Due Date**: October 26, 2023 at 11:59 pm.
 
 You may use up to two (2) late days, out of four total. To use a late day,
 simply message us on [Slack][slack] to let us know that you will be using a late
