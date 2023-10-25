@@ -39,6 +39,10 @@ Follow these steps:
   * Install a Universal version of `libgmp` using [MacPorts][macports], though
     this may work with [Homebrew][homebrew-gmp] now as well.
 
+    First, install `macPorts`, following [this guide][macports].
+
+    Then,
+
     ```sh
     sudo port install gmp +universal
     ```
@@ -62,6 +66,14 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
 
   * Install the CC0 dependencies using [Homebrew][homebrew] or [MacPorts][macports] (brew example shown here):
 
+    First, install `homebrew`:
+
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+  Then, install these items:
+
     ```sh
     brew install autoconf automake libpng pkg-config gnu-getopt libtool
     ```
@@ -70,6 +82,7 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
 
     ```sh
     git clone https://github.com/CMU-07-120/intro-to-software-construction
+    cd intro-to-software-construction
     cd c0/cc0
     ./configure
     env PATH=<where-you-built-mlton-in-the-previous-step/mlton>/build/bin:$PATH LIBRARY_PATH=/opt/local/lib/ C_INCLUDE_PATH=/opt/local/include/  make -j
@@ -85,6 +98,7 @@ my path, the required installs (GMP, Automake, etc) and running just:
 
 ``` sh
 git clone https://github.com/CMU-07-120/intro-to-software-construction
+cd intro-to-software-construction
 cd c0/cc0
 ./configure
 make -j
