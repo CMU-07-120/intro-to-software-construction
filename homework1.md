@@ -193,7 +193,7 @@ day.
 
 1. You will either upload your GitHub repository URL to [Canvas][canvas]
 under [assignment 1][canvas-1] (embedded via [GradeScope][gradescope]) as a PDF
-(with just your andrewID and link in it) or DM staff over [Slack][slack].
+with just your andrewID and link in it) or DM staff over [Slack][slack].
 
 ## Assignment Review
 Because this is a new class, we are asking you to fill out a short survey to
