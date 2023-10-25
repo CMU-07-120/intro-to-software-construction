@@ -123,7 +123,7 @@ C0 depends on `mlton`, `libpng` and `libncurses`. If you have those installed
 (e.g. via a package manager), you should be able to compile from scratch:
 
 ```sh
-git clone https://github.com/zeeshanlakhani/07120
+git clone https://github.com/CMU-07-120/intro-to-software-construction
 cd c0/cc0
 ./configure
 make -j
@@ -138,19 +138,19 @@ and run `coin` and `cc0` binaries directly.
 First, install our container:
 
 ```sh
-docker pull ghcr.io/zeeshanlakhani/07120:latest
+docker pull ghcr.io/cmu-07-120/intro-to-software-construction:latest
 ```
 
 Then you can run it with a mounted volume of your `.c0` files for example:
 
 ```sh
-$ docker run --platform linux/amd64 -it --rm -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
+$ docker run --platform linux/amd64 -it --rm -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/cmu-07-120/intro-to-software-construction:latest
 ```
 
 Another option is first invoke the container like so:
 
 ```sh
-$ docker run --platform linux/amd64 --name=c0-docker -it -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/zeeshanlakhani/07120
+$ docker run --platform linux/amd64 --name=c0-docker -it -v <path-to-my-c0-files>:/home/07120 -w /home/07120 ghcr.io/cmu-07-120/intro-to-software-construction:latest
 ```
 
 and then just start it on subsequent invocations:
