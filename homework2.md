@@ -57,7 +57,7 @@ Refer to [homework 1][hw01-gh] for information on getting setup with GitHub.
 
 ### Copy over favorites.txt from HW1 into the repository for HW2
 
-Override the default `favorites.txt` in the HW2 repository with your favorites
+Override the contents of `favorites.txt` in the HW2 repository with your favorites
 list from HW1.
 
 ### Provide writeups/bug reports on 2 out of the 3 sorting programs
@@ -159,7 +159,8 @@ with just your andrewID and link it) or DM staff over [Slack][slack].
 ## Assignment Review
 
 Because this is a new class, we are asking you to fill out a short survey to
-help us calibrate the homework.  This survey is ungraded, but your input will be
+help us calibrate the homework.  This survey contents are ungraded, but will
+give a participation point for filling it out, and your input will be
 very valuable for us in improving the course both for this semester and for
 future years. [Fill out a short survey to help us improve the course!][survey]
 
@@ -176,10 +177,11 @@ for one of the programs by October 30, 2023.
 | Fixing Bug(s) #2 | 5                                  |
 | Writeup/Bug report #2 | 40                             |
 | Committing to Github and opening a Pull Request | 10  |
-| Early Commit / Submission | +5                        |
+| **Total**       | **100**                             |
+| Early Commit / Submission (DUE Oct 30, 11:59pm) | +5                   |
 | Challenge #1: Writeup/Bug Report & Fixing Bug #3 | +10    |
 | Challenge #2: Bonus Question(s) | +5                   |
-| **Total**       | **120**                             |
+| **Optional Bonus**       | **20**                             |
 
 [15-122]: https://www.cs.cmu.edu/~15122/home.shtml
 [bug-template]: https://github.com/CMU-07-120/hw02/blob/main/bug_report.txt
