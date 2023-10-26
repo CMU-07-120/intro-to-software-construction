@@ -72,7 +72,7 @@ Note: you might need to disable gatekeeper as described here: https://osxdaily.c
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-  Then, install these items:
+    Then, install these items:
 
     ```sh
     brew install autoconf automake libpng pkg-config gnu-getopt libtool
