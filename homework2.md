@@ -159,7 +159,8 @@ with just your andrewID and link it) or DM staff over [Slack][slack].
 ## Assignment Review
 
 Because this is a new class, we are asking you to fill out a short survey to
-help us calibrate the homework.  This survey contents are ungraded, but will give a participation point for filling it out, and your input will be
+help us calibrate the homework.  This survey contents are ungraded, but will
+give a participation point for filling it out, and your input will be
 very valuable for us in improving the course both for this semester and for
 future years. [Fill out a short survey to help us improve the course!][survey]
 
