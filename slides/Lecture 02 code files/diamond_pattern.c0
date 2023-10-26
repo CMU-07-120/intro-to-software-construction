@@ -1,0 +1,39 @@
+#use <conio>
+
+void print_characters(char character, int num)
+{
+    int i=num;
+    while (i>0)
+    {
+        printf("%c",character);
+        i--;
+    }
+}
+
+int main()
+{
+    int j = 0;
+    int k = 0;
+    int sizeOfDiamond = 13;
+    for (int i=0; i<sizeOfDiamond;i++)
+    {
+        if (i<sizeOfDiamond/2)
+        {
+            j = sizeOfDiamond-1-i;
+            k = i*2;
+        }
+            else
+        {
+            j = i;
+            k = 2*(sizeOfDiamond - 1 - i);
+        }
+            print_characters(' ',j);
+            
+            printf("*");
+
+            print_characters(' ',k);
+            
+            printf("*\n");
+    }
+    return 0;
+}

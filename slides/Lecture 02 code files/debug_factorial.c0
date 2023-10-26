@@ -1,0 +1,27 @@
+#use <conio>
+
+//IDEs already highlight the code and identify many errors even before we compile our code!
+
+// Function to calculate the factorial of a number
+int factorial(int n) {
+    
+    int result=1;
+    for (int i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+
+int main() {
+    int n = 5;
+    
+    if (n < 0) {
+        printf("Factorial is undefined for negative numbers.\n");
+    } else {
+        int fact = factorial(n);
+        printf("Factorial of %d is %d\n", n, fact);
+    }
+
+    return 0;
+}

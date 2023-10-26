@@ -1,0 +1,17 @@
+
+#use <conio>
+int main() {
+    int i1 = 100;
+
+    for (int i=10;i>0;i--)
+    {
+    printf("%d divided by %d is %d\n",i1,i,i1/i);
+    }
+
+    int[] arr =  alloc_array(int, 2);
+ 
+    arr[1] = 10;
+ 
+
+    return 0;
+}
