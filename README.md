@@ -126,6 +126,25 @@ Nonetheless, I've kept everything here from what the C0 team recommends.
   brew uninstall cc0
   ```
 
+Sadly, this **may not work!** cause life.
+
+So, let's re-brew:
+
+  ```sh
+    brew install autoconf automake libpng pkg-config gnu-getopt libtool
+  ```
+
+Then, let's install from source:
+
+```sh
+git clone --recurse-submodules https://github.com/CMU-07-120/intro-to-software-construction
+cd intro-to-software-construction
+cd c0/cc0
+./configure
+make -j
+make install
+```
+
 ### Windows
 
 On Windows, we recommend [installing Windows Subsystem for Linux v2][wsl] and
@@ -133,15 +152,16 @@ then following the directions for Ubuntu/Debian above.
 
 ### Installing from source
 
-C0 depends on `mlton`, `libpng` and `libncurses`. If you have those installed
+C0 depends on `mlton`, `libpng` and `libncurses/ncurses`. If you have those installed
 (e.g. via a package manager), you should be able to compile from scratch:
 
 ```sh
 git clone --recurse-submodules https://github.com/CMU-07-120/intro-to-software-construction
+cd intro-to-software-construction
 cd c0/cc0
 ./configure
 make -j
-make install PREFIX=<your-prefix>
+make install
 ```
 
 ## Using Docker
