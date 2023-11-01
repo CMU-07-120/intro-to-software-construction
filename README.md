@@ -52,7 +52,7 @@ Follow these steps:
     * [Source code][mlton-src]
 
     You can find more release packages [here][mlton-releases]. For downloads on
-    MacOS, [you may need to override security setings][mac-app-security].
+    MacOS, [you may need to override security settings][mac-app-security].
 
   * Compile the MLTon source code you downloaded, using the amd64
     statically-linked version of mlton from mlton.org in your `$PATH`:
