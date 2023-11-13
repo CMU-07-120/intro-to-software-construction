@@ -29,7 +29,7 @@ contracts around the functions and setup we think the game will need.
 ## Tasks
 You will be asked to perform the following series of tasks:
 
-1. *Create your homework-4 repository*, with the [GitHub classroom invite][TODO Add Link]
+1. *Create your homework-4 repository*, with the [GitHub classroom invite][invite]
    and clone that repository locally. You’ll continue to use this repository for
    the next homework as well.
 
