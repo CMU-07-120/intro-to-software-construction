@@ -10,7 +10,7 @@ from in [homework 4][hw04], we expect you to now:
   * the code should still compile and work as advertised!
 * rename variables into meaningful, readable names.
 * write comments explaining the logic that's happening in the code.
-* test your functions and any game logic in [`test_wordle.c`][test_wordle.c].
+* test each function and any game logic in [`test_wordle.c`][test_wordle.c].
 
 **Note**: We don't expect you to work on this assignment over the official
 holiday break. The given deadline and expectations for this assignment already
@@ -45,14 +45,7 @@ You will be asked to perform the following series of tasks:
 
    Copy over anything useful from your homework-4 repository.
 
-2. *Re-diagram the implementation*.
-
-   We want you to revisit your diagram from [homework 4][hw04] and modify it
-   to meet the structure of your refactor.
-
-   You can commit an image, pdf, etc to your repository for review.
-
-3. *Refactor* the code in [`wordle.c`][wordle.c], include contracts, and implement
+2. *Refactor* the code in [`wordle.c`][wordle.c], include contracts, and implement
    tests.
 
    Currently [`wordle.c`][wordle.c] is a mess! It compiles; the game works on
@@ -117,12 +110,20 @@ You will be asked to perform the following series of tasks:
      **Note**: The word list for the game and contract assertions are already
      included for you.
 
+3. *Re-diagram the implementation*.
+
+   We want you to revisit your diagram from [homework 4][hw04] and modify it
+   to match the structure of your refactor.
+
+   You can commit an image, pdf, etc to your repository for review.
+
 4. *Reflect*.
 
    Update the given *reflection.txt* file, briefly discussing how
    closely your pseudocode (including pseudo-contracts and pseudo-tests)
    did or didn't line up with your refactor of the given code. Did your setup
-   have more or less functionality than the game given?
+   have more or less functionality than the game given? Also, comment on how
+   your diagram changed from the previous exercise.
 
 5. *Open a Pull Request (PR)* and **do not merge it**.
 
@@ -181,12 +182,12 @@ by doing the *Challenge* question.
 
 | Item        | Points    |
 | ----------- | ----------- |
-| Re-diagram the implementation | 10 |
-| Refactor the code in `wordle.c` (including contracts)  | 55 |
+| Refactor the code in `wordle.c` (including contracts)  | 50 |
 | Implement tests (`test_wordle.c`) | 30 |
-| Reflection | 5 |
-| **Challenge**: Add difficulty to the Wordle game | +20 |
-| Total       | 120  |
+| Re-diagram the implementation | 10 |
+| Reflection | 10 |
+| *Challenge*: Add difficulty to the Wordle game | +20 |
+| **Total**       | **120**  |
 
 
 [c-ref]: https://c0.cs.cmu.edu/docs/c0-reference.pdf
