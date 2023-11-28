@@ -101,7 +101,17 @@ with the watch.
    called using `curl` command on the shell) or that could be manually
    downloaded from some source data, e.g. website, physical activity
    data from a phone if you intend to mimic FitBit-esque App, etc.
-2. **Diagram your implementation** of the widgets, end-to-end.
+
+   **Please share your data source(s) in the #general [Slack channel][slack]**.
+
+2. **Diagram your implementation** of the project for your two widgets, similar
+   to what you did for Wordle in homework 4. Draw out the steps/flow of
+   your implementation and how components and functions connect. If you remember
+   from class, this should detail how you gather and export data, how you plan
+   to parse it into the necessary format, and how you plan to display it.
+
+   You can commit an image, pdf, etc to your repository for review.
+
 3. **Implement at least two widgets** for an application of your choice that
    includes at least one graph output that involves some summarization or
    processing of the data parsed from an external source. We expect that your
@@ -111,12 +121,16 @@ with the watch.
    the necessary inputs, outputs, and logic.
 
 4. **Provide documentation** for how we can run your project. This includes
-   what script(s) to run and any other helpful information.
+   what script(s) to run and any other helpful information. It should cover
+   everything needed to run your project.
 
-5. **Reflection**. Walk us through your process in designing, implementing,
-   and debugging this project. Where did you get stuck? What commands were
-   most useful? Did you do any refactoring? What aspect ended up being the most
-   helpful to you?
+5. **Reflection**. We're looking for a reflection on your process in designing,
+   implementing, and debugging this project.
+
+   - *Q1*: Where did you get stuck and how did you debug your problem(s)?
+   - *Q2*: What commands were most useful?
+   - *Q3*: Did you do any refactoring along the way?
+   - *Q4*: What concepts from the class ended up being the most helpful to you?
 
 ## Deadlines and Deliverables
 
@@ -136,6 +150,10 @@ with the watch.
 
    - In class, you'll present your in-progress project, which should demonstrate
      at least one working widget with the watch, even if its in rudimentary form.
+
+   - Prepare one slide discussing the questions centered around your reflection.
+
+     **Please send us your one slide ahead of class by DM on [Slack][slack]**.
 
 3. Merge your final, working code (with tests and contracts) for *at least two widgets*
    of your application. Include instructions/documentation for how to run your
@@ -158,10 +176,11 @@ The total assignment is worth 180 points and is 40% of your final grade.
 | **Total**                                                | **180** |
 
 
-[commands]: todo
+[commands]: https://github.com/CMU-07-120/finalproject/blob/main/commands.txt
 [curl]: https://curl.se/
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values#:~:text=Comma%2Dseparated%20values%20(CSV),typically%20represents%20one%20data%20record.
 [processing]: https://processing.org/
-[processing-code]: todo
+[processing-code]: https://github.com/CMU-07-120/finalproject/blob/main/read_file_and_write_to_serial.pde
 [processing-serial]: https://processing.org/reference/libraries/serial/index.html
 [shell]: https://www.shellscript.sh/
+[slack]: https://join.slack.com/t/cmu-07-120/shared_invite/zt-27pb6atmf-6KfCjZsHreGzt~nakL5p9Q
