@@ -146,7 +146,7 @@ with the watch.
 
    **Due Friday, December 1, 2023 at 11:59 pm**.
 
-   - **Sources can be provided and shared on Slack for everyone to use**. We do
+   - **Sources should be provided and shared on Slack for everyone to use**. We do
      expect at least one suggestion per individual.
    - **Diagram(s) should be pushed up to your repository** (PR'ed and merged).
    - Using the given [Processing program][processing-code], have the watch
@@ -157,7 +157,7 @@ with the watch.
 
 2. Give an in-class presentation with a basic working version of the project.
 
-   **Due Wednesday, December 6 2023 at 11 am in class**.
+   **Due Wednesday, December 6 2023 at 11:00 am in class**.
 
    - In class, you'll present your in-progress project, which should demonstrate
      at least one working widget with the watch, even if it's in rudimentary form.
@@ -173,6 +173,7 @@ with the watch.
    **Due Friday, December 15 2023 at 11:59 pm**.
 
 ## Grading
+
 The total assignment is worth 180 points and is 40% of your final grade.
 
 | Item                                                     | Points  |
