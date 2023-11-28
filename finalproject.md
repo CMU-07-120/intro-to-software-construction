@@ -5,6 +5,9 @@ we've given you. The widget can display a summarized or visual representation of
 any data you want. For example, weather, stocks, live scores from your favorite
 sports, your physical activity data, etc.
 
+You will use the [GitHub repository invite][invite] for all of your final
+project code, script(s), and diagram(s).
+
 Given that we cannot yet program the watch itself, you will do all the processing
 locally on your computer and push the contents to the watch over a USB
 connection.
@@ -75,7 +78,7 @@ four semi-colon-separated fields:
 ## Processing IDE Application
 
 We have given you a program titled [`read_file_and_write_to_serial.pde`][processing-code]
-in your repository. This code reads from a file called `commands.txt` and
+in your [repository][invite]. This code reads from a file called `commands.txt` and
 outputs its contents line by line to the serial port. You can change the program
 to read the contents of another file, but it is not needed as long as your C0
 and Shell script pushes your parsed content to `commands.txt`.
@@ -104,7 +107,7 @@ with the watch.
 
    **Please share your data source(s) in the #general [Slack channel][slack]**.
 
-2. **Diagram your implementation** of the project for your two widgets, similar
+2. **Diagram your implementation** of the project, similar
    to what you did for Wordle in homework 4. Draw out the steps/flow of
    your implementation and how components and functions connect. If you remember
    from class, this should detail how you gather and export data, how you plan
@@ -113,16 +116,21 @@ with the watch.
    You can commit an image, pdf, etc to your repository for review.
 
 3. **Implement at least two widgets** for an application of your choice that
-   includes at least one graph output that involves some summarization or
+   includes **at least one graph output** that involves some summarization or
    processing of the data parsed from an external source. We expect that your
    repository will have C0 (or C) code and Shell script(s).
+
+   An an example, you could have one widget that only shows the temperature number
+   and the city, and then another with a view which shows city, day range, and a
+   graph for that day.
 
    Your final C0 (or C code) must include tests and contracts, covering most of
    the necessary inputs, outputs, and logic.
 
 4. **Provide documentation** for how we can run your project. This includes
    what script(s) to run and any other helpful information. It should cover
-   everything needed to run your project.
+   everything needed to run your project. You can use the provided
+   [`Readme.md`][readme], which is in [markdown][markdown].
 
 5. **Reflection**. We're looking for a reflection on your process in designing,
    implementing, and debugging this project.
@@ -136,20 +144,23 @@ with the watch.
 
 1. Provide diagram(s), data source(s), and an *Hello World* display example.
 
-   **Due Friday, December 1, 2023 at 11:59pm**.
+   **Due Friday, December 1, 2023 at 11:59 pm**.
 
    - **Sources can be provided and shared on Slack for everyone to use**. We do
-     expect at least one sugesstion per individual.
+     expect at least one suggestion per individual.
    - **Diagram(s) should be pushed up to your repository** (PR'ed and merged).
-   - Using the given [Processing program][processing-code], have the watch just
+   - Using the given [Processing program][processing-code], have the watch
      display *Hello World*.
+
+     **Upload a screenshot, gif, or video (better) demonstrating this working to
+     your repository**.
 
 2. Give an in-class presentation with a basic working version of the project.
 
-   **Due Wednesday, December 6 2023 at 11am in class**.
+   **Due Wednesday, December 6 2023 at 11 am in class**.
 
    - In class, you'll present your in-progress project, which should demonstrate
-     at least one working widget with the watch, even if its in rudimentary form.
+     at least one working widget with the watch, even if it's in rudimentary form.
 
    - Prepare one slide discussing the questions centered around your reflection.
 
@@ -159,7 +170,7 @@ with the watch.
    of your application. Include instructions/documentation for how to run your
    project, and provide a written reflection.
 
-   **Due Friday, December 15 2023 at 11:59pm**.
+   **Due Friday, December 15 2023 at 11:59 pm**.
 
 ## Grading
 The total assignment is worth 180 points and is 40% of your final grade.
@@ -178,9 +189,12 @@ The total assignment is worth 180 points and is 40% of your final grade.
 
 [commands]: https://github.com/CMU-07-120/finalproject/blob/main/commands.txt
 [curl]: https://curl.se/
-[csv]: https://en.wikipedia.org/wiki/Comma-separated_values#:~:text=Comma%2Dseparated%20values%20(CSV),typically%20represents%20one%20data%20record.
+[csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+[invite]: https://classroom.github.com/a/yLb8ZBG_
+[markdown]: https://www.markdownguide.org/
 [processing]: https://processing.org/
 [processing-code]: https://github.com/CMU-07-120/finalproject/blob/main/read_file_and_write_to_serial.pde
 [processing-serial]: https://processing.org/reference/libraries/serial/index.html
+[readme]: https://github.com/CMU-07-120/finalproject/blob/main/README.md
 [shell]: https://www.shellscript.sh/
 [slack]: https://join.slack.com/t/cmu-07-120/shared_invite/zt-27pb6atmf-6KfCjZsHreGzt~nakL5p9Q
