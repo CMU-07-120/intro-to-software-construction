@@ -108,7 +108,7 @@ with the watch.
    **Please share your data source(s) in the #general [Slack channel][slack]**.
 
 2. **Diagram your implementation** of the project, similar
-   to what you did for Wordle in homework 4. Draw out the steps/flow of
+   to what you did for Wordle in [homework 4][hw4]. Draw out the steps/flow of
    your implementation and how components and functions connect. If you remember
    from class, this should detail how you gather and export data, how you plan
    to parse it into the necessary format, and how you plan to display it.
@@ -152,7 +152,7 @@ with the watch.
    - Using the given [Processing program][processing-code], have the watch
      display *Hello World*.
 
-     **Upload a screenshot, gif, or video (better) demonstrating this working to
+     - **Upload a screenshot, gif, or video (better) demonstrating this working to
      your repository**.
 
 2. Give an in-class presentation with a basic working version of the project.
@@ -164,7 +164,7 @@ with the watch.
 
    - Prepare one slide discussing the questions centered around your reflection.
 
-     **Please send us your one slide ahead of class by DM on [Slack][slack]**.
+     - **Please send us your one slide ahead of class by DM on [Slack][slack]**.
 
 3. Merge your final, working code (with tests and contracts) for *at least two widgets*
    of your application. Include instructions/documentation for how to run your
@@ -191,6 +191,7 @@ The total assignment is worth 180 points and is 40% of your final grade.
 [commands]: https://github.com/CMU-07-120/finalproject/blob/main/commands.txt
 [curl]: https://curl.se/
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+[hw4]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/homework4.md#tasks
 [invite]: https://classroom.github.com/a/yLb8ZBG_
 [processing]: https://processing.org/
 [processing-code]: https://github.com/CMU-07-120/finalproject/blob/main/read_file_and_write_to_serial.pde
