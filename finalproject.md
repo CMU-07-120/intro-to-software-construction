@@ -6,7 +6,7 @@ any data you want. For example, weather, stocks, live scores from your favorite
 sports, your physical activity data, etc.
 
 You will use the [GitHub repository invite][invite] for all of your final
-project code, script(s), and diagram(s).
+project code, script(s), diagram(s), and reflection writeup.
 
 Given that we cannot yet program the watch itself, you will do all the processing
 locally on your computer and push the contents to the watch over a USB
@@ -130,7 +130,7 @@ with the watch.
 4. **Provide documentation** for how we can run your project. This includes
    what script(s) to run and any other helpful information. It should cover
    everything needed to run your project. You can use the provided
-   [`Readme.md`][readme], which is in [markdown][markdown].
+   [`Readme.txt`][readme].
 
 5. **Reflection**. We're looking for a reflection on your process in designing,
    implementing, and debugging this project.
@@ -191,10 +191,9 @@ The total assignment is worth 180 points and is 40% of your final grade.
 [curl]: https://curl.se/
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
 [invite]: https://classroom.github.com/a/yLb8ZBG_
-[markdown]: https://www.markdownguide.org/
 [processing]: https://processing.org/
 [processing-code]: https://github.com/CMU-07-120/finalproject/blob/main/read_file_and_write_to_serial.pde
 [processing-serial]: https://processing.org/reference/libraries/serial/index.html
-[readme]: https://github.com/CMU-07-120/finalproject/blob/main/README.md
+[readme]: https://github.com/CMU-07-120/finalproject/blob/main/README.txt
 [shell]: https://www.shellscript.sh/
 [slack]: https://join.slack.com/t/cmu-07-120/shared_invite/zt-27pb6atmf-6KfCjZsHreGzt~nakL5p9Q
