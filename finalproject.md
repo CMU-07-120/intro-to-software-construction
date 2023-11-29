@@ -98,6 +98,15 @@ myPort = new Serial(this, Serial.list()[3], 9600);
 Make sure this program is running at all times when you are looking to interact
 with the watch.
 
+## Resource to transform data formats
+Many online data sources will provide data in JSON or XML. However, the easiest format to process in C0 is going to be CSV (comma-separated values). There are few tools that you can use to transform the data from JSON/XML to CSV. The one we showed in the class and that worked well for us in our experiments is **Dasel**. 
+
+You can install Dasel on your laptops using command: 
+*brew install dasel*
+
+If you do not have brew installed on your laptop, you can either install it or search online for alternate strategies to install Dasel. Reach out to us if you run into issues. 
+
+
 ## Expectations for the Final Project Deliverables
 
 1. **Choose a data source** that can provide data from an online API (typically
