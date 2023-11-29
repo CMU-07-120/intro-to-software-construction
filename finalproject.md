@@ -12,7 +12,7 @@ Given that we cannot yet program the watch itself, you will do all the processin
 locally on your computer and push the contents to the watch over a USB
 connection.
 
-The watch contents can be controlled using a series commands from the computer.
+The watch contents can be controlled using a series of commands from the computer.
 There are several components to the pipeline here:
 
 1. **The Watch**: It runs an Arduino-based firmware that we do not need to touch for
@@ -62,7 +62,7 @@ four semi-colon-separated fields:
 - `position`: As the name suggests, this field is where the new content will be
   placed. It has three possible values: *top*, *middle*, *bottom*.
 - `color`: This field specifies the color of the new content. Possible
-  values include: *black*, *brown*, *red*, *orange*, *yellow*, *green*, *blue*, *purple*, *grey*,
+  values include *black*, *brown*, *red*, *orange*, *yellow*, *green*, *blue*, *purple*, *grey*,
   *white*, *cyan*, *magenta*, *pink*.
 - `type`: The watch supports four types of content: `string`, `number`, `range`, and `chart`.
 - `value`: For each type of content, the values will differ:
@@ -89,7 +89,7 @@ the port that is connected to the watch. It should show something similar to
 find the correct one. The program's output lists the indexes on the left of the
 serial port. Update to the corrected index on line 13 of the Processing code.
 
-As an example, for the code snippet in class, we used the index 3:
+An example, for the code snippet in class, we used the index 3:
 
 ``` processing
 myPort = new Serial(this, Serial.list()[3], 9600);
@@ -99,19 +99,29 @@ Make sure this program is running at all times when you are looking to interact
 with the watch.
 
 ## Resource to transform data formats
-Many online data sources will provide data in JSON or XML. However, the easiest format to process in C0 is going to be CSV (comma-separated values). There are few tools that you can use to transform the data from JSON/XML to CSV. The one we showed in the class and that worked well for us in our experiments is **Dasel**. 
 
-You can install Dasel on your laptops using command: 
-*brew install dasel*
+Many online data sources will provide data in JSON or XML. However, the easiest
+format to process in C0 is going to be [CSV (comma-separated values)][csv].
+There are a few tools that you can use to transform the data from JSON/XML to CSV.
+The one we showed in the class and that worked well for us in our experiments
+is **Dasel**.
 
-If you do not have brew installed on your laptop, you can either install it or search online for alternate strategies to install Dasel. Reach out to us if you run into issues. 
+You can install Dasel on your macOS laptops using `homebrew`:
+
+```console
+brew install dasel
+```
+
+If you do not have `homebrew`/`brew` installed on your laptop, you can either
+install it via one of the [paths here][dasel]. Reach out to us if you run into
+issues.
 
 
 ## Expectations for the Final Project Deliverables
 
 1. **Choose a data source** that can provide data from an online API (typically
    called using `curl` command on the shell) or that could be manually
-   downloaded from some source data, e.g. website, physical activity
+   downloaded from some source data, e.g. website, or physical activity
    data from a phone if you intend to mimic FitBit-esque App, etc.
 
    **Please share your data source(s) in the #general [Slack channel][slack]**.
@@ -130,7 +140,7 @@ If you do not have brew installed on your laptop, you can either install it or s
    repository will have C0 (or C) code and Shell script(s).
 
    An an example, you could have one widget that only shows the temperature number
-   and the city, and then another with a view which shows city, day range, and a
+   and the city, and then another with a view that shows the city, day range, and a
    graph for that day.
 
    Your final C0 (or C code) must include tests and contracts, covering most of
@@ -148,10 +158,11 @@ If you do not have brew installed on your laptop, you can either install it or s
    - *Q2*: What commands were most useful?
    - *Q3*: Did you do any refactoring along the way?
    - *Q4*: What concepts from the class ended up being the most helpful to you?
+   - *Q5*: Did you work with a buddy? Who? How was that collaborative experience?
 
 ## Deadlines and Deliverables
 
-1. Provide diagram(s), data source(s), and an *Hello World* display example.
+1. Provide diagram(s), data source(s), and a *Hello World* display example.
 
    **Due Friday, December 1, 2023 at 11:59 pm**.
 
@@ -166,7 +177,8 @@ If you do not have brew installed on your laptop, you can either install it or s
 
 2. Give an in-class presentation with a basic working version of the project.
 
-   **Due Wednesday, December 6 2023 at 11:00 am in class**.
+   **Due Wednesday, December 6 2023 at 11:00 am in class**. **Please attend class
+   on this day to get full points!**
 
    - In class, you'll present your in-progress project, which should demonstrate
      at least one working widget with the watch, even if it's in rudimentary form.
@@ -181,6 +193,12 @@ If you do not have brew installed on your laptop, you can either install it or s
 
    **Due Friday, December 15 2023 at 11:59 pm**.
 
+## Option: Pick a Buddy
+
+While assignments should be done individually, all of you have the option to
+pick one buddy to collaborate with on the assignment. Please let us know on
+who that is and we'll add them to your repository, and vice versa.
+
 ## Grading
 
 The total assignment is worth 180 points and is 40% of your final grade.
@@ -190,7 +208,7 @@ The total assignment is worth 180 points and is 40% of your final grade.
 | Implementation Diagram(s)                                | 20      |
 | Provide Data Source(s)                                   | 10      |
 | *Hello World* Display on Watch                           | 20      |
-| Work In-Progress Presentation                            | 50      |
+| Work-In-Progress Presentation                            | 50      |
 | Final Code (with tests, contracts, 2 widgets)            | 45      |
 | How-to-run-it Instructions/Documentation                 | 10      |
 | Reflection                                               | 25      |
@@ -200,6 +218,7 @@ The total assignment is worth 180 points and is 40% of your final grade.
 [commands]: https://github.com/CMU-07-120/finalproject/blob/main/commands.txt
 [curl]: https://curl.se/
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+[dasel]: https://daseldocs.tomwright.me/installation
 [hw4]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/homework4.md#tasks
 [invite]: https://classroom.github.com/a/yLb8ZBG_
 [processing]: https://processing.org/
