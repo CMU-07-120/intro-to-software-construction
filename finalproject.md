@@ -193,6 +193,8 @@ issues.
 
    **Due Friday, December 15 2023 at 11:59 pm**.
 
+     - **Upload videos of your widgets running as well**.
+
 ## Option: Pick a Buddy
 
 While assignments should be done individually, all of you have the option to
