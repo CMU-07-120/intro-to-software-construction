@@ -69,7 +69,7 @@ git config --global user.name "Zeeshan Lakhani"
 ### Generate your own repository and clone it
 
 There is a [repository that has already been set up for HW1][hw01]. First,
-accept the GitHub classroom invite at [https://classroom.github.com/a/Qal8n-kz][invite]
+accept the GitHub classroom invite at [https://classroom.github.com/a/qQ0cXXb0][invite]
 and it will generate a private repository for you, something like
 `homework-1/<your GitHub username>`. Then clone the repository that you created
 to a local directory on your machine.
@@ -183,17 +183,17 @@ messed up. Feel free to delete your local directly and start over. This is a
 common technique when working with git.
 
 ## Deadlines and Deliverables
-**Due Date**: October 26, 2023 at 11:59 pm.
+**Due Date**: October 28, 2024 at 11:59 pm.
 
 You may use up to two (2) late days, out of four total. To use a late day,
-simply message us on [Slack][slack] to let us know that you will be using a late
+simply message us on [Slack](https://join.slack.com/t/cmu-07-120-f24/shared_invite/zt-2ssun469g-qbYJWSR9VWDWmX84pT5B~A) to let us know that you will be using a late
 day.
 
 **Deliverable**: For this assignment, you have one deliverable:
 
-1. You will either upload your GitHub repository URL to [Canvas][canvas]
-under [assignment 1][canvas-1] (embedded via [GradeScope][gradescope]) as a PDF
-with just your andrewID and link in it) or DM staff over [Slack][slack].
+Upload your GitHub repository URL to [Canvas](https://canvas.cmu.edu/courses/43977)
+under [assignment 1](https://canvas.cmu.edu/courses/43977/assignments/769465) (embedded via [GradeScope](https://www.gradescope.com/courses/898389/assignments/5177132)) by connecting your repository (use the GitHub option for submission) or as a PDF with your andrewID and link in it. 
+If neither of these work, you may also DM staff over [Slack](https://join.slack.com/t/cmu-07-120-f24/shared_invite/zt-2ssun469g-qbYJWSR9VWDWmX84pT5B~A).
 
 ## Assignment Review
 Because this is a new class, we are asking you to fill out a short survey to
@@ -215,8 +215,8 @@ by doing the **Challenge** question.
 | **Total**       | **110** |
 
 
-[canvas]: https://canvas.cmu.edu/courses/36702
-[canvas-1]: https://canvas.cmu.edu/courses/36702/assignments/648197
+[canvas]: https://canvas.cmu.edu/courses/43977
+[canvas-1]: https://canvas.cmu.edu/courses/43977/assignments/769465
 [c0]: https://bitbucket.org/c0-lang/docs/wiki/Home
 [config-email]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
 [config-name]: https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
