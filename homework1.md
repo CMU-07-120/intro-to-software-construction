@@ -53,7 +53,7 @@ Personal Access Token (PAT). There are directions [here][pat-blog] and
 the most ease. This will work for cloning `https` URLs, so please be aware of
 that. Zeeshan has also provided a quick screencast as well:
 
-https://www.loom.com/share/d3a6e4ec449347dbaa8b2f8cf86fdd23?sid=2a098095-af86-48b3-a5f9-e40cf256a8f1
+[https://www.loom.com/share/d3a6e4ec449347dbaa8b2f8cf86fdd23?sid=2a098095-af86-48b3-a5f9-e40cf256a8f1](https://www.loom.com/share/d3a6e4ec449347dbaa8b2f8cf86fdd23?sid=2a098095-af86-48b3-a5f9-e40cf256a8f1)
 
 If you're interested in going further and using [SSH keys][gh-ssh], we can
 take that on Slack or during office hours.
