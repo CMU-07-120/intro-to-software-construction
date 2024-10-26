@@ -14,7 +14,7 @@ or tests. You’ll be documenting your process while debugging buggy code.
 You will be asked to perform the following series of tasks:
 
 - *Create* your own homework-2 repository, with the GitHub classroom invite,
-  [https://classroom.github.com/a/ArSRiKrc][invite] and clone that repository locally
+  [https://classroom.github.com/a/Kci4HCQV][invite] and clone that repository locally
 - *Copy over* your favorites.txt file from HW1 and override the favorites.txt in
   the HW2 repository (hint, this is a good place to make a commit)
 - ***Pick 2 out of the 3*** `sort*.c0` programs that you’ll provide writeups/bug
@@ -48,7 +48,7 @@ now, but please feel free to use [`coin`][coin] if you're comfortable with it.
 ### Generate Your own repository and clone it
 
 Just like last week, there is a [repository that has already been set up for HW2][hw02].
-First, accept the GitHub classroom invite at [https://classroom.github.com/a/ArSRiKrc][invite].
+First, accept the GitHub classroom invite at [https://classroom.github.com/a/Kci4HCQV][invite].
 and it will generate a private repository for you, something like
 `homework-2/<your GitHub username>`. Then clone the repository that you created
 to a local directory on your machine.
@@ -194,7 +194,7 @@ for one of the programs by October 30, 2023.
 [hw02]: https://github.com/CMU-07-120/hw02
 [gh-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 [gradescope]: https://www.gradescope.com/courses/576470
-[invite]: https://classroom.github.com/a/ArSRiKrc
+[invite]: https://classroom.github.com/a/Kci4HCQV
 [lecture-2]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/slides/Lecture%2002%20-%20Debugging.pdf
 [readme.txt]: https://github.com/CMU-07-120/hw02/blob/main/README.txt
 [slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
