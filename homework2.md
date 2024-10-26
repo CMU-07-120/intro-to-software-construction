@@ -173,7 +173,7 @@ future years. [Fill out a short survey to help us improve the course!][survey]
 
 The total assignment is worth 100 points, but you can receive an extra 15 points
 by doing the Challenge questions, and an extra 5 points by committing a write-up
-for one of the programs by October 30, 2023.
+for one of the programs by October 31, 2023.
 
 | Item        | Points                                  |
 | ----------- | -----------                             |
@@ -183,7 +183,7 @@ for one of the programs by October 30, 2023.
 | Writeup/Bug report #2 | 40                             |
 | Committing to Github and opening a Pull Request | 10  |
 | **Total**       | **100**                             |
-| Early Commit / Submission (DUE Oct 30, 11:59pm) | +5                   |
+| Early Commit / Submission (DUE Oct 31, 11:59pm) | +5                   |
 | Challenge #1: Writeup/Bug Report & Fixing Bug #3 | +10    |
 | Challenge #2: Bonus Question(s) | +5                   |
 | **Optional Bonus**       | **20**                             |
