@@ -143,7 +143,7 @@ The bonus question for each program is always the same:
 **Due Date**: Monday, November 4, 2024 at 11:59 pm.
 
 **Note**: You can get an **extra 5 points** by committing the write-up/bug
-report for one of these programs by **Monday, October 30, 2023** at 11:59pm to
+report for one of these programs by **Thursday, October 31, 2024** at 11:59pm to
 your repository.
 
 You may use up to two (2) late days, out of four total. To use a late day,
