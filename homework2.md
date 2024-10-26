@@ -140,7 +140,7 @@ The bonus question for each program is always the same:
 
 ## Deadlines and Deliverables
 
-**Due Date**: Wednesday, November 2, 2023 at 11:59 pm.
+**Due Date**: Monday, November 4, 2024 at 11:59 pm.
 
 **Note**: You can get an **extra 5 points** by committing the write-up/bug
 report for one of these programs by **Monday, October 30, 2023** at 11:59pm to
@@ -155,6 +155,11 @@ day.
 1. You will either upload your GitHub repository URL to Canvas under
 [assignment 2][canvas-2] (embedded via [GradeScope][gradescope] as a PDF
 with just your andrewID and link it) or DM staff over [Slack][slack].
+
+Upload your GitHub repository URL to [Canvas](https://canvas.cmu.edu/courses/43977)
+under [assignment 2](https://canvas.cmu.edu/courses/43977/assignments/769466) (embedded via [GradeScope](https://www.gradescope.com/courses/898389/assignments/5224306)) by connecting your repository (use the GitHub option for submission) or as a PDF with your andrewID and link in it. 
+If neither of these work, you may also DM staff over [Slack](https://join.slack.com/t/cmu-07-120-f24/shared_invite/zt-2ssun469g-qbYJWSR9VWDWmX84pT5B~A).
+
 
 ## Assignment Review
 
