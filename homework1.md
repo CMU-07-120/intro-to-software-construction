@@ -143,18 +143,18 @@ Merge conflicts can be very annoying, and will be a cause of headaches for you.
 We want you to try and follow these steps to (artificially) create a merge
 conflict so that you can merge the conflict. Here are the steps to follow:
 
-- In the branch <andrewID>, create a text file called `student_facts.txt`
+- In the branch [andrewID], create a text file called `student_facts.txt`
 - In this file, write what year and college you are in
 - Commit this change and include a message about what you just did
-- Create a new branch called <new_andrewID> and switch to that branch
+- Create a new branch called [new_andrewID] and switch to that branch
 - Open up `student_facts.txt` and delete the previous line you wrote and now
   only include a sentence about a fun fact about yourself
 - Commit this change and include a message about what you just did
-- Switch back to the branch <andrewID>
+- Switch back to the branch [andrewID]
 - Open up `student_facts.txt` and append to this file a sentence about what
   programming languages and/or coding classes you have taken
 - Commit this change and include a message about what you just did
-- While in <andrewID>, merge this branch with <new_andrewID>
+- While in [andrewID], merge this branch with [new_andrewID]
 - You will see that there are conflicts
 - To resolve these conflicts, open the file `student_facts.txt` and edit the
   file such that there are three different lines (and in this order):
@@ -163,7 +163,7 @@ conflict so that you can merge the conflict. Here are the steps to follow:
     taken
   * A sentence with a fun fact about yourself
 - Commit this change and include a message about what you just did
-- While in <andrewID>, create a file with all of the Terminal commands you used
+- While in [andrewID], create a file with all of the Terminal commands you used
   so far
 
 ## Resources
