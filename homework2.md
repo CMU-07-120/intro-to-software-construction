@@ -16,7 +16,7 @@ You will be asked to perform the following series of tasks:
 - *Create* your own homework-2 repository, with the GitHub classroom invite,
   [https://classroom.github.com/a/Kci4HCQV][invite] and clone that repository locally
 - There is now a .devcontainer folder in the hw2 repository (for those of you who accepted the assignment before this morning, you may need to sync your forks)
-- To make use of the Dev Container, first download the [VSCode Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- To make use of the Dev Container, ensure you have [Docker](https://docs.docker.com/get-started/get-docker/) installed, and download the [VSCode Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - Next, open your cloned hw2 folder, and there might be a popup stating "Folder contains a Dev Container configuration file. Reopen in Container?" Click on the option to reopen in container.
 - If you did not receive the pop up, you can alternatively click the green button on the bottom left of VSCode (containing inward facing angle brackets), and select the option for Reopen in Container
 - This should bring you to the containerized environment where you can run coin, c0 and git. If any of these do not work for you, please let the staff know. Otherwise, we can get started with the main assignment
