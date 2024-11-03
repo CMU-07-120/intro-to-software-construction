@@ -117,7 +117,7 @@ when using `cc0`.
 2. [https://visualgo.net/en/sorting][visualgo]
 
 ## Deadlines and Deliverables
-**Due Date**: Tuesday, November 7, 2023 at 11:59 pm.
+**Due Date**: Monday, November 11, 2024 at 11:59 pm.
 
 **Deliverable**: For this assignment, you have one deliverable.
 1) You will either upload your GitHub repository URL to Canvas under
@@ -155,9 +155,9 @@ by doing the Challenge question.
 [hw02-gh]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/homework2.md
 [hw03-link]: https://github.com/CMU-07-120/hw03
 [gh-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-[gradescope]: https://www.gradescope.com/courses/576470
-[invite]: https://classroom.github.com/a/HoMmK5qA
+[gradescope]: https://www.gradescope.com/courses/898389
+[invite]: https://classroom.github.com/a/hVK3-8LH
 [readme.txt]: https://github.com/CMU-07-120/hw03/blob/main/README.txt
-[slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
+[slack]: https://join.slack.com/t/cmu-07-120-f24/shared_invite/zt-2ssun469g-qbYJWSR9VWDWmX84pT5B~A
 [survey]: https://forms.gle/fuVse4LrpHKQYNcW8
 [visualgo]: https://visualgo.net/en/sorting
