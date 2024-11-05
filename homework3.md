@@ -37,7 +37,7 @@ You will be asked to perform the following series of tasks:
   loops (loop invariant) into 1 of the 3 sorting programs.
 
 We expect that you’ll be using the [C0 VSCode Extension][c0-vscode] to help
-to write your C0 programs.
+to write your C0 programs. This assignment is setup with a dev container, further instructions on how to use it at the beginning of [hw02](https://github.com/CMU-07-120/intro-to-software-construction/blob/main/homework2.md)
 
 ### Generate Your repository and clone it
 As is now the norm in this class, accept the GitHub classroom invite
