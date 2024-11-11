@@ -144,7 +144,7 @@ YOU LOSE! The word was: afoot
 4. [https://www.cs.cmu.edu/~15122/handouts/lectures/21-cnum.pdf][types-c]
 
 ## Deadlines and Deliverables
-**Due Date**: Wednesday, November 15, 2023 at 11:59 pm.
+**Due Date**: Monday, November 18, 2024 at 11:59 pm.
 
 **Deliverable**: For this assignment, you have one deliverable.
 1) You will either upload your GitHub repository URL to Canvas under
@@ -173,12 +173,12 @@ by doing the *Challenge* question.
 
 [c0-ref]: https://c0.cs.cmu.edu/docs/c0-reference.pdf
 [c0-vscode]: https://marketplace.visualstudio.com/items?itemName=15122staff.c0-lsp
-[canvas-4]: https://canvas.cmu.edu/courses/36702/assignments/653075
+[canvas-4]: https://canvas.cmu.edu/courses/43977/assignments/769468
 [contracts]: https://jamiemorgenstern.com/teaching/su-122/lectures/01-contracts.pdf
 [gh-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-[gradescope]: https://www.gradescope.com/courses/576470
+[gradescope]: https://www.gradescope.com/courses/898389/assignments/5302024/
 [intro-c]: https://www.cs.cmu.edu/~15122/handouts/lectures/19-cintro.pdf
-[invite]: https://classroom.github.com/a/mFU81krC
+[invite]: https://classroom.github.com/a/IpUAVigY
 [pseudocode]: https://en.wikipedia.org/wiki/Pseudocode
 [py-wordle]: https://realpython.com/python-wordle-clone/
 [slack]: https://cmu-07-120.slack.com/archives/C0629E4EBJ5
