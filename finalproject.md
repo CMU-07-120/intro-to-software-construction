@@ -164,7 +164,7 @@ issues.
 
 1. Provide diagram(s), data source(s), and a *Hello World* display example.
 
-   **Due Friday, December 1, 2023 at 11:59 pm**.
+   **Due Friday, November 29, 2024 at 11:59 pm**.
 
    - **Sources should be provided and shared on Slack for everyone to use**. We do
      expect at least one suggestion per individual.
@@ -177,7 +177,7 @@ issues.
 
 2. Give an in-class presentation with a basic working version of the project.
 
-   **Due Wednesday, December 6 2023 at 11:00 am in class**. **Please attend class
+   **Due Wednesday, December 4 2024 at 11:00 am in class**. **Please attend class
    on this day to get full points!**
 
    - In class, you'll present your in-progress project, which should demonstrate
@@ -191,7 +191,7 @@ issues.
    of your application. Include instructions/documentation for how to run your
    project, and provide a written reflection.
 
-   **Due Friday, December 15 2023 at 11:59 pm**.
+   **Due Friday, December 13 2024 at 11:59 pm**.
 
      - **Upload videos of your widgets running as well**.
 
@@ -222,10 +222,10 @@ The total assignment is worth 180 points and is 40% of your final grade.
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
 [dasel]: https://daseldocs.tomwright.me/installation
 [hw4]: https://github.com/CMU-07-120/intro-to-software-construction/blob/main/homework4.md#tasks
-[invite]: https://classroom.github.com/a/yLb8ZBG_
+[invite]: https://classroom.github.com/a/I6U4dYtW
 [processing]: https://processing.org/
 [processing-code]: https://github.com/CMU-07-120/finalproject/blob/main/read_file_and_write_to_serial.pde
 [processing-serial]: https://processing.org/reference/libraries/serial/index.html
 [readme]: https://github.com/CMU-07-120/finalproject/blob/main/README.txt
 [shell]: https://www.shellscript.sh/
-[slack]: https://join.slack.com/t/cmu-07-120/shared_invite/zt-27pb6atmf-6KfCjZsHreGzt~nakL5p9Q
+[slack]: https://join.slack.com/t/cmu-cs-pedagogy/shared_invite/zt-2upvse4up-lEW49hLbkz9_kqIVnAzIiQ
