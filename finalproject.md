@@ -175,7 +175,9 @@ issues.
      - **Upload a screenshot, gif, or video (better) demonstrating this working to
      your repository**.
 
-2. Give an in-class presentation with a basic working version of the project.
+   - For an extra credit of 10 points, turn in [here][extra] a working end-to-end, working widget with the watch (1 data source) by Tue Nov 26 11:59pm
+
+3. Give an in-class presentation with a basic working version of the project.
 
    **Due Wednesday, December 4 2024 at 11:00 am in class**. **Please attend class
    on this day to get full points!**
@@ -187,7 +189,7 @@ issues.
 
      - **Please send us your one slide ahead of class by DM on [Slack][slack]**.
 
-3. Merge your final, working code (with tests and contracts) for *at least two widgets*
+4. Merge your final, working code (with tests and contracts) for *at least two widgets*
    of your application. Include instructions/documentation for how to run your
    project, and provide a written reflection.
 
@@ -215,7 +217,7 @@ The total assignment is worth 180 points and is 40% of your final grade.
 | How-to-run-it Instructions/Documentation                 | 10      |
 | Reflection                                               | 25      |
 | **Total**                                                | **180** |
-
+| Early turn-in of 1 data source (DUE Tue Nov 26, 11:59pm) | +10     |
 
 [commands]: https://github.com/CMU-07-120/finalproject/blob/main/commands.txt
 [curl]: https://curl.se/
@@ -229,3 +231,4 @@ The total assignment is worth 180 points and is 40% of your final grade.
 [readme]: https://github.com/CMU-07-120/finalproject/blob/main/README.txt
 [shell]: https://www.shellscript.sh/
 [slack]: https://join.slack.com/t/cmu-cs-pedagogy/shared_invite/zt-2upvse4up-lEW49hLbkz9_kqIVnAzIiQ
+[extra]: https://www.gradescope.com/courses/898389/assignments/5351914/
