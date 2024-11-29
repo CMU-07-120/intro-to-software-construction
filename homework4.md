@@ -66,13 +66,17 @@ You will be asked to perform the following series of tasks:
     a `wordle-pseudocode.txt` in the template repository, but feel free to use
     a different format/file if you want to, e.g. markdown, code, etc.
 
-4. *Open a Pull Request (PR)* and **do not merge it**.
+4. *In a separate file, write pseudocode of a test suite that covers functions you outline in part 3*
+
+    You are not required to implement them in C0, but can be completed as a challenge for earning bonus points (see part 7)
+   
+6. *Open a Pull Request (PR)* and **do not merge it**.
 
     For this assignment, you should check out your branch off of the main branch,
     and push up this branch consisting of commit(s). Once this is all ready,
     [please open a Pull Request][gh-pr] to the main branch and leave it there!
 
-5. **Challenge**: Turn your pseudocode tests into real tests (in C0 for now)!
+7. **Challenge**: Turn your pseudocode tests into real tests (in C0 for now)!
    Just make sure it compiles! You're getting an early start to *HW5*!
 
 We expect that you’ll be using the [C0 VSCode Extension][c0-vscode] to help
